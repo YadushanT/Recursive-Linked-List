@@ -35,6 +35,7 @@ public:
     void printAll(NodePtr &head);   // Function to print out the list
 };
 
+//recursive base case: set head node data to num, head next pointer to NULL. Delete the temp pointer created since the user only want 1 node.
 void linkedList::insertNode(NodePtr &head)
 {
     int num;
